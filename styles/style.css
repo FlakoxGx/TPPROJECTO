@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html{
+  height: 100%;
+  margin: 0;
+}
+main {
+  flex: 1;
+}
+.p1{
+  position: relative;
+  left: 500px;
+  top: -50px;
+}
+.p1o{
+  position: relative;
+  left: 150px;
+  top: -50px;
+}
+.p2o{
+  position: relative;
+  left: 10px;
+  top: -40px;
+}
+.p3o{
+  position: relative;
+  left: 150px;
+  top: -60px;
+}
+.p2{
+  position: relative;
+  left: 500px;
+  top: -50px;
+}
+.p3{
+  position: relative;
+  left: 500px;
+  top: -50px;
+}
+footer {
+  bottom: 0;
+  position: relative;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #1FC375;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  
+}
+h1{
+    font-size: 30px;
+    display: flex;
+    flex: wrap;
+    color: #FFFFFF;
+
+}
+h3{
+  position: relative;
+  display: flex;
+  top: -15px;
+  left: 40px;
+}
+body {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+  flex-direction: column;
+  }
+  header{
+    position: fixed;
+    background-color: #1FC375;
+    position: relative;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+.contact{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+.ulxd{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+
+}
+.lixd{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  right: 280px;
+  position: relative;
+
+}
+.imge{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  left: 20px;
+}
+.imges{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  left: 1120px;
+}
+.contenedor1{
+  background-color: aqua;
+  border-radius: 59PX;
+  
+}
+.contenedor2{
+  background-color: rgb(111, 158, 158);
+  border-radius: 59PX;
+  
+}
+.contenedor3{
+  background-color: rgb(119, 145, 145);
+  border-radius: 59PX;
+  
+}
